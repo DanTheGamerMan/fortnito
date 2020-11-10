@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Monda&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+        crossorigin="anonymous">
+	<link rel="manifest" href="manifest.json">
+	<link rel='icon' href='favicon.ico' type='image/x-icon'/>
+    <title>Fortnite Tracker</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+		<div id="a">Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>. All other images belong to Fortnite developers Epic Games. I do not claim credit for any of the following images</div>
+
+            <h4>Fortnite Stats Tracker</h4>
+            <br>
+			<!-- !-->
+            <div class="row no-gutters">
+                <div class="col-8">
+                    <input type="text" class="form-control" placeholder="Username" id="username">
+                </div>
+                <div>
+                    <select class="custom-select" id="platform">
+                        <option selected>Choose Platform</option>
+                        <option value="pc">Keyboard and Mouse</option>
+                        <option value="xbox">Xbox</option>
+                        <option value="psn">Playstation</option>
+                    </select>
+                </div>
+            </div>
+            <br>	
+			
+            <button class="btn" id="submit">Search</button>
+			<div id="error"></div>
+					<div id="fish"><h5>(For those who are unsure, KB/M stands for Keyboard and Mouse)</h5></div>
+        </div>
+		
+        <div class="result"></div>
+    </div>
+	
+    <script src="java.js"></script>
+</body>
+
+</html>
